@@ -1,9 +1,9 @@
 body {
     background-image: url('../sources/wallpaper.jpg'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la ruta correcta de tu imagen */
-    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-size: auto; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: top; /* Centra la imagen en el fondo */
 }
-
 .card {
     background-color: rgba(255, 255, 255, 0.7); /* El último valor (0.7) representa la opacidad (0 transparente, 1 opaco) */
 }
